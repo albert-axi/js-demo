@@ -1,0 +1,19 @@
+div#poke-list {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.poke-card {
+    display: grid;
+    justify-items: center;
+    color: black;
+}
+
+.poke-card > img {
+    width: 200px;
+}
+
+.saved {
+    color: red;
+}
